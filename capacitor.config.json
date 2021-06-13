@@ -1,5 +1,5 @@
 {
-	"appId": "io.ionic.starter",
+	"appId": "com.otbs.meals.app",
 	"appName": "Meals",
 	"webDir": "www",
 	"bundledWebRuntime": false
