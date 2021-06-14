@@ -32,7 +32,7 @@ export class Tab1Page implements OnInit {
     if (this.platform.is('cordova')) {
       if (this.platform.is('android')) {
         params = {
-          webClientId: '918434576252-h34kunkb30hhg6njnlf3doeno0997gvg.apps.googleusercontent.com',
+          webClientId: '712259400807-rkqqc47jvq7po0tdtoftroe5l0csfif4.apps.googleusercontent.com',
           offline: true,
         };
       } else {

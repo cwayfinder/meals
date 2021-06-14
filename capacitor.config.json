@@ -1,6 +1,14 @@
 {
-	"appId": "com.otbs.meals.app",
-	"appName": "Meals",
-	"webDir": "www",
-	"bundledWebRuntime": false
+    "appId": "com.otbs.meals.app",
+    "appName": "Meals",
+    "webDir": "www",
+    "bundledWebRuntime": false,
+    "GoogleAuth": {
+        "scopes": [
+            "profile",
+            "email"
+        ],
+        "serverClientId": "712259400807-rkqqc47jvq7po0tdtoftroe5l0csfif4.apps.googleusercontent.com",
+        "forceCodeForRefreshToken": true
+    }
 }

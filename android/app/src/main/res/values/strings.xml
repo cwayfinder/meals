@@ -4,4 +4,6 @@
     <string name="title_activity_main">Meals</string>
     <string name="package_name">com.otbs.meals.app</string>
     <string name="custom_url_scheme">com.otbs.meals.app</string>
+    <string name="server_client_id">712259400807-rkqqc47jvq7po0tdtoftroe5l0csfif4.apps.googleusercontent.com</string>
+
 </resources>
