@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612120718513",
+    "project_id": "meals-316701",
+    "storage_bucket": "meals-316701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612120718513:android:8c80b8abe2236e3513c690",
+        "android_client_info": {
+          "package_name": "com.otbs.meals.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612120718513-vkjn9mq898s3rubpnsn39qqooadhh6t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGT3Lf7hKFawyRgE_v2qVQtzw1qCCTM3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612120718513-vkjn9mq898s3rubpnsn39qqooadhh6t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
