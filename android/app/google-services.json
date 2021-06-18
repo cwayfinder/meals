@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "612120718513",
+    "project_id": "meals-316701",
+    "storage_bucket": "meals-316701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612120718513:android:8c80b8abe2236e3513c690",
+        "android_client_info": {
+          "package_name": "com.otbs.meals.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612120718513-11mhvs5gnr8bhdo658d5532tbktl0m0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otbs.meals.app",
+            "certificate_hash": "c209ec9199ae7c1639690c907e11aae36c1980b7"
+          }
+        },
+        {
+          "client_id": "612120718513-9vn92818i3gs5pktqc1hom6q15hpfoii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otbs.meals.app",
+            "certificate_hash": "1beb601107122280ef4ecb329ae752a3b868afa5"
+          }
+        },
+        {
+          "client_id": "612120718513-rs5b2620gh3i3j1u2fro6a78pc1u2bd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otbs.meals.app",
+            "certificate_hash": "b3cde2bf517abcb6059abb23a68d41d635d22e67"
+          }
+        },
+        {
+          "client_id": "612120718513-vkjn9mq898s3rubpnsn39qqooadhh6t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGT3Lf7hKFawyRgE_v2qVQtzw1qCCTM3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612120718513-vkjn9mq898s3rubpnsn39qqooadhh6t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
