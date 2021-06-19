@@ -1,8 +1,11 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title *ngIf="!isGoogleLogin">
+     Login
     </ion-title>
+    <ion-title *ngIf="isGoogleLogin">
+      Profile 
+     </ion-title>
   </ion-toolbar>
 </ion-header>
 

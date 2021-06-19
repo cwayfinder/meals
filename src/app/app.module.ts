@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { EventService } from './services/event.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -20,7 +21,10 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     AngularFireAnalyticsModule,
     AngularFirestoreModule,
     ],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  providers: [{
+     provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+     EventService
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

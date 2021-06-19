@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { Platform } from '@ionic/angular';
+import { EventService } from './services/event.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,27 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor(private fireAuth: AngularFireAuth, private platform: Platform, private eventService: EventService, private changeRef: ChangeDetectorRef) {
+    this.platform.ready().then(() => {
+      this.alreadyLogin();
+    });
+
+
+  }
+  alreadyLogin() {
+    this.fireAuth.onAuthStateChanged(
+      user => {
+        console.log(user);
+        if (user != null) {
+          this.eventService.publishUserData(
+            {
+              user
+            }
+          );
+        }
+
+      });
+
+  }
+
 }
